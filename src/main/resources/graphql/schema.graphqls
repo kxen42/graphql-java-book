@@ -1,0 +1,6 @@
+type Query { pets: [Pet]
+}
+type Pet {
+    name: String
+    color: String
+}
